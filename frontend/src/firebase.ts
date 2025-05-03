@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCG-_r5Sbf3TP9Q71jms1lPQ2rPkwOPBGI",
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
     authDomain: "communitybridge13.firebaseapp.com",
     databaseURL: "https://communitybridge13-default-rtdb.asia-southeast1.firebasedatabase.app",
     projectId: "communitybridge13",
